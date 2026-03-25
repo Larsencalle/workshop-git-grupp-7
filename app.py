@@ -7,9 +7,9 @@ def run():
     choice = input("Select: ")
 
 
-    if choice == "2": print(("sub(a, b)"))
+    if choice == "2": print((sub(a, b)))
     if choice == "3": print(mul(a,b))
-    if choice == "1": print("add(a, b)")
+    if choice == "1": print(add(a, b))
     if choice == "4" and b == 0: print("Error: division by zero")
     if choice == "4" and b != 0: print(div(a,b))
     a = float(input("a: "))
