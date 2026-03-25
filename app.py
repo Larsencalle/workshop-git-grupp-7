@@ -2,7 +2,7 @@ from calculator import add, sub, mul, div
 
 #simple console calculator
 
-def run():
+def main():
     print("1) Add\n2) Subtract\n3) Multiply\n4) Divide\n0) Exit")
     choice = input("Select: ")
 
@@ -17,4 +17,3 @@ def run():
     if choice == "4": print(div(a, b))
 
 
-#hej
