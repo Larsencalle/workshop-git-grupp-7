@@ -141,3 +141,6 @@ $RECYCLE.BIN/
 *.msix
 *.msm
 *.msp
+
+
+__pycache__

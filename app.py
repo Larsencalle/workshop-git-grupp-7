@@ -15,5 +15,7 @@ def main():
     a = float(input("a: "))
     b = float(input("b: "))
     if choice == "4": print(div(a, b))
-
+    
+    if __name__=="__main__":
+        main()
 
