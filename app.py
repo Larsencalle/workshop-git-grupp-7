@@ -1,4 +1,4 @@
 
 def run():
-    print("1) ADD\n0) EXIT")
-    choice = input("Choice: ")
+    print("1) Subtract\n0 Exit")
+    choice = input("Your choice: ")
